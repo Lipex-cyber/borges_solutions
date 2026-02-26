@@ -20,7 +20,7 @@ menuToggle.addEventListener("click", () => {
 document.getElementById("orcamentoForm").addEventListener("submit", function(e){
     e.preventDefault();
 
-    const numero = "5551996048894";
+    const numero = "5551991277265";
 
     const servico = document.getElementById("servico").value;
     const nome = document.getElementById("nome").value;
