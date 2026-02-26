@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Borges Solutions | Soluções Elétricas</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img src="images/logo.png" alt="Logo">
+        <img src="images/logo1.png" alt="Borges Solution" class="logo-texto">
+    </div>
+
+    <div class="menu-toggle" id="menuToggle">
+        ☰
+    </div>
+
+    <nav id="navMenu">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Soluções Elétricas com <span>Segurança e Qualidade</span></h1>
+    <p>Instalações elétricas prediais e industriais, Manutenções e Automação Eletroeletrônica.</p>
+    <a href="#contato" class="btn">Solicitar Orçamento</a>
+</section>
+
+<section id="servicos">
+    <h2 class="section-title">Nossos Serviços</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Instalações Prediais</h3>
+            <p>Realizamos serviços de instalações residenciais como fiação elétrica interna, pontos de iluminação, terminais de tomadas e interruptores, entre outros.</p>
+        </div>
+        <div class="card">
+            <h3>Instalações Industriais</h3>
+            <p>Executamos instalações elétricas industriais incluindo montagem e manutenção de painéis, comandos elétricos, CLPs, sensores e dispositivos de controle.</p>
+        </div>
+        <div class="card">
+            <h3>Manutenção</h3>
+            <p>Realizamos manutenção elétrica preventiva e corretiva com agilidade, segurança e alto padrão técnico para garantir o pleno funcionamento das instalações.</p>
+        </div>
+        <div class="card">
+            <h3>Automação</h3>
+            <p>Oferecemos soluções completas em sistemas eletroeletrônicos industriais, com o objetivo de aumentar a produtividade, a economia e a segurança.</p>
+        </div>
+    </div>
+</section>
+
+<section id="sobre">
+    <h2 class="section-title">Sobre a Empresa</h2>
+    <div class="about">
+        <img src="images/map.png" alt="Mapa Rio Grande do Sul">
+    <div class="about-text">
+        <p>A Borges Solutions atua com serviços de Elétrica em geral e Automação eletroeletrônica, oferecendo soluções seguras, eficientes e com alto padrão de qualidade.</p>
+
+        <p>Fundada por Rafael Borges, profissional com formação em Eletrotécnica e Controle e Automação Industrial, a empresa conta com mais de 20 anos de experiência neste ramo.</p>
+
+        <p>Nosso compromisso é entregar serviços com agilidade, responsabilidade e excelência, garantindo os melhores resultados para cada cliente por todo o Rio Grande do Sul.</p>
+    </div>
+    </div>
+</section>
+
+<section id="contato" class="contact">
+    <h2 class="section-title">Solicitar Serviço</h2>
+
+    <form id="orcamentoForm" class="form-contato">
+
+        <!-- Tipo de serviço -->
+        <label>Tipo de Serviço</label>
+        <select id="servico" required>
+            <option value="">Selecione um serviço</option>
+            <option>Instalação Elétrica - Residencial</option>
+            <option>Instalação Elétrica - Industrial</option>
+            <option>Automação Industrial</option>
+            <option>Manutenção Elétrica</option>
+            <option>Outro</option>
+        </select>
+
+        <!-- Nome -->
+        <label>Nome / Empresa</label>
+        <input type="text" id="nome" placeholder="Digite seu nome ou empresa" required>
+
+        <!-- Descrição -->
+        <label>Descrição do Serviço</label>
+        <textarea id="descricao" rows="4" placeholder="Descreva o que você precisa..." required></textarea>
+
+        <button type="submit" class="btn whatsapp-btn">
+            Peça já seu orçamento!
+        </button>
+
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- MENU -->
+        <div class="footer-col">
+            <h3>MENU</h3>
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>    
+                <li><a href="#sobre">Empresa</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+
+        <!-- CONTATO -->
+        <div class="footer-col">
+            <h3>CONTATO</h3>
+            <p>📍 Porto Alegre e Região Metropolitana</p>
+            <p>📞 (51) 99127-7265</p>
+            <p>📩 rafaelcamposborges27@gmail.com</p>
+        </div>
+
+        <!-- ACOMPANHE -->
+        <div class="footer-col footer-logo">
+            <img src="images/logotipo1.png" alt="Borges Solutions Logo">
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 Borges Solutions - Todos os direitos reservados
+    </div>
+</footer>
+
+<script src="index.js"></script>
+
+</body>
+</html>
